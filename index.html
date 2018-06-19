@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Responsive Image Gallery Demo</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="container">
+    <ul>
+        <li category="*">All</li>
+        <li category="new_zealand">New Zealand</li>
+        <li category="canada">Canada</li>
+        <li category="switzerland">Switzerland</li>
+        <li category="england">England</li>
+        <li category="china">China</li>
+    </ul>
+    <div id="demo-1">
+        <div category="new_zealand">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/newzealand.jpg" />
+        </div>
+        <div category="switzerland">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/switzerland.jpg" />
+        </div>
+        <div category="england">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/england.jpg" />
+        </div>
+        <div category="canada">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/canada.jpg" />
+        </div>
+        <div category="new_zealand">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/newzealand2.jpg" />
+        </div>
+        <div category="england">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/england2.jpg" />
+        </div>
+        <div category="china">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/china.jpg" />
+        </div>
+        <div category="switzerland">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/switzerland2.jpg" />
+        </div>
+        <div category="canada">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/canada2.jpg" />
+        </div>
+        <div category="china">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/china2.jpg" />
+        </div>
+        <div category="england">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/england3.jpg" />
+        </div>
+        <div category="new_zealand">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/newzealand3.jpg" />
+        </div>
+        <div category="england">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/england4.jpg" />
+        </div>
+        <div category="china">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/china3.jpg" />
+        </div>
+        <div category="switzerland">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/switzerland3.jpg" />
+        </div>
+        <div category="new_zealand">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/newzealand4.jpg" />
+        </div>
+        <div category="canada">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/canada3.jpg" />
+        </div>
+        <div category="china">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/china4.jpg" />
+        </div>
+        <div category="switzerland">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/switzerland4.jpg" />
+        </div>
+        <div category="england">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/england5.jpg" />
+        </div>
+        <div category="canada">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/canada4.jpg" />
+        </div>
+        <div category="new_zealand">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/newzealand5.jpg" />
+        </div>
+        <div category="switzerland">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/switzerland5.jpg" />
+        </div>
+        <div category="canada">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/canada5.jpg" />
+        </div>
+        <div category="china">
+            <img src="http://52.224.223.200/libraries/responsive-image-gallery/demo-images/china5.jpg" />
+        </div>
+    </div>
+</div>
+<script src="assets/js/responsive-image-gallery.min.js"></script>
+<script>
+addEventListener('load', function() {
+    var gallery = new ResponsiveImageGallery({
+        el: '#demo-1',
+        bar: 'ul',
+        grid: false,
+        height: 0
+    });
+}); 
+</script>
+</body>
+</html>
