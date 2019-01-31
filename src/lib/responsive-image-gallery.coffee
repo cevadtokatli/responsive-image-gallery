@@ -56,7 +56,7 @@ export default class ResponsiveImageGallery
     # @params {String} active
     # @params {Boolean} animate
     set: (active, animate=true) ->
-        unless @processing && active == @active
+        if !@processing && (!animate || active != @active)
             @processing = true
             @active = active
 

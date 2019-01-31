@@ -1,6 +1,6 @@
 /*!
  *   Responsive Image Gallery
- *   version: 1.0.0
+ *   version: 1.0.1
  *    author: Cevad Tokatli <cevadtokatli@hotmail.com>
  *   website: http://cevadtokatli.com
  *    github: https://github.com/cevadtokatli/responsive-image-gallery
@@ -219,7 +219,7 @@ var responsiveImageGallery = ResponsiveImageGallery = function () {
       var animate = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
 
       var e;
-      if (!(this.processing && active === this.active)) {
+      if (!this.processing && (!animate || active !== this.active)) {
         this.processing = true;
         this.active = active;
         if (this.bar) {
