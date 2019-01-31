@@ -88,3 +88,6 @@ IE 10 is not supported and patches to fix problems will not be accepted.
 
 ## License
 Responsive Image Gallery is provided under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Related Projects
+* [Responsive Image Gallerty React](https://github.com/cevadtokatli/responsive-image-gallery-react)
